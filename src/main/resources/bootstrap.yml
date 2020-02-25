@@ -1,1 +1,7 @@
-
+spring:
+ application: 
+  name: movie-rating-service
+ cloud: 
+  config: 
+   uri: http://localhost:8085
+   name: movie-rating-service
